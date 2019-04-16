@@ -1,0 +1,9 @@
+cpdump utilidad para analizar el tráfico que circula por la red. 
+tcpdump dest port 23 Capturar todo el tráfico con destino al puerto 23 
+tcpdump port 23 Capturar todo el tráfico con destino o origen al puerto 23 
+tcpdump -ni eth1 port 443 Muestra todo el trafico de la interfaz eth1 por el puerto 443 
+tcpdump src host 192.168.1.1 Captura todo el trafico cuya ip origen sea la indicada 
+tcpdump dst net 192.168.1.0 Captura todo el trafico cuya red destino sea la indicada 
+tcpdump host 192.168.1.1 Captura todo el trafico cuya ip origen o destino sea la indicada 
+tcpdump ether dst 0:2:a5:ee:ec:10 Capturar el tráfico con destino a la dirección ethernet 0:2:a5:ee:ec:10 
+tcpdump ether host 0:2:a5:ee:ec:10 Capturar el tráfico que vaya a la máquina cuya dirección MAC es 0:2:a5:ee:ec:10

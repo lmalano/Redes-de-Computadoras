@@ -1,0 +1,5 @@
+$ sudo apt-get install core-network
+$ sudo apt-get install quagga
+$ wget https://downloads.pf.itd.nrl.navy.mil/ospf-manet/quagga-0.99.21mr2.2/quagga-mr_0.99.21mr2.2_amd64.deb 
+$ sudo dpkg -i quagga-mr_0.99.21mr2.2_amd64.deb
+$ core-gui
